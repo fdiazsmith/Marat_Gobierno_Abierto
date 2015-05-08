@@ -89,7 +89,7 @@ module.exports = function(grunt) {
    */
 
   grunt.registerTask('install',   [ 'exec:npm_install', 'exec:bower_install' ]);
-  grunt.registerTask('dev-start', [ 'build', 'exec:start_vagrant'  ]);
+  grunt.registerTask('start',     [ 'build', 'exec:start_vagrant'  ]);
   grunt.registerTask('dev-stop',  [ 'build', 'exec:stop_vagrant'     ]);
   grunt.registerTask('build',     [ 'exec:npm_install', 'exec:bower_install', 'clean', 'copy:wp_site' ]);
   grunt.registerTask('watch',     [ 'watch']);
