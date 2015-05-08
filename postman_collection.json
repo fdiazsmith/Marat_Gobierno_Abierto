@@ -1,0 +1,319 @@
+{
+	"id": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+	"name": "Tellart.com",
+	"description": "",
+	"order": [
+		"3f2c55a1-2a9e-0fbe-b4e0-ad436dd1c380",
+		"a63e5c6b-dfe5-7289-a356-dd85ffef8052",
+		"71c1a75f-e3b6-f0a0-cc1d-a514517db964",
+		"9e3b7d12-8df0-7acf-1902-2a00f0f9690e",
+		"1273e456-63ba-9f24-6472-d991c2f2385b",
+		"7cde2478-3c49-20d4-4d23-f86a9babae0e",
+		"7e3de5bf-2991-3700-e297-cb8c3339705a",
+		"e3428e11-cace-21aa-1ff6-5f99b0e2ce49"
+	],
+	"folders": [],
+	"timestamp": 1414685916811,
+	"synced": false,
+	"remoteLink": "",
+	"requests": [
+		{
+			"id": "1273e456-63ba-9f24-6472-d991c2f2385b",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "get_client_by_id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "15",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1417367559598,
+			"name": "get_client_by_id",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "3f2c55a1-2a9e-0fbe-b4e0-ad436dd1c380",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "ajax_test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "test_value",
+					"value": "555",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1417367568702,
+			"name": "ajax_test",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "71c1a75f-e3b6-f0a0-cc1d-a514517db964",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "get_news_by_id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "107",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1417367565229,
+			"name": "get_news_by_id",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7cde2478-3c49-20d4-4d23-f86a9babae0e",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "list_all_projects",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1417447799649,
+			"name": "list_all_projects",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7e3de5bf-2991-3700-e297-cb8c3339705a",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "delete_meta_key",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "meta_key",
+					"value": "enter_a_meta_key",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1417728513958,
+			"name": "delete_meta_key",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "9e3b7d12-8df0-7acf-1902-2a00f0f9690e",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "get_award_by_id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "27",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418073236339,
+			"name": "get_award_by_id",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "a63e5c6b-dfe5-7289-a356-dd85ffef8052",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "get_project_by_id",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "21",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1417744806150,
+			"name": "get_project_by_id",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "e3428e11-cace-21aa-1ff6-5f99b0e2ce49",
+			"headers": "",
+			"url": "http://localhost:8080/wp-admin/admin-ajax.php",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "action",
+					"value": "handle_ajax_req",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "function",
+					"value": "get_project_by_id_test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "21",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1418064038790,
+			"name": "get_project_by_id_test",
+			"description": "",
+			"collectionId": "fd5b3d29-d22d-2f1a-4974-0e1684d14e1e",
+			"responses": [],
+			"synced": false
+		}
+	]
+}
