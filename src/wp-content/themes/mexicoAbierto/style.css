@@ -1,0 +1,34 @@
+@import url("../Aware-WordPress-Theme-1.4/aware/style.css");
+/*
+Theme Name: Mexico Abierto
+Author: Fernando Diaz Smith
+Author URI: https://fdiazsmith.com
+Description: Child theme
+Version: 0.1
+Template: Aware-WordPress-Theme-1.4/aware
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.darkbubble {
+  background: #bfe600;
+}
+.darkbubble::after {
+  border: 0 solid #bfe600;
+}
+.darkbubble::before {
+  border: 0 solid #bfe600;
+}
+.darkbubble:after {
+  content: "";
+  position: absolute !important;
+  bottom: -14px;
+  z-index: 100;
+  border-bottom: 14px solid transparent;
+  width: 100%;
+  border-right-width: 14px;
+  right: 0;
+}
