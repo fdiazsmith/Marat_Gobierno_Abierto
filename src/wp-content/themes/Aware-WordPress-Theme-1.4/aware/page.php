@@ -26,9 +26,9 @@
             <p><?php _e("Sorry, but you are looking for something that isn't here.", 'framework'); ?></p>
            <!--BEGIN .navigation .page-navigation -->
             <?php endif; ?>
-            
+
             <div class="clear"></div>
-</div>          
+</div>
 </div>
 <div class="four columns sidebar offset-by-one content">
    <?php	/* Widget Area */	if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Page Sidebar') ) ?>
