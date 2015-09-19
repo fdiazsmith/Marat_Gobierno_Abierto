@@ -10,7 +10,7 @@
 #which fetches all required deps
 
 /node_modules
-
+/src/wp-content/uploads/
 # COMPILED SOURCE
 ########################
 *.com
