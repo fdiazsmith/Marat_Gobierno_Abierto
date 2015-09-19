@@ -32,3 +32,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   border-right-width: 14px;
   right: 0;
 }
+
+ .page-template-template-historias .columns{
+  float: right;
+ }
+ .page-template-template-historias .more-link{
+  display: block;
+ }
